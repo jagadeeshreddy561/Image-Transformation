@@ -21,7 +21,7 @@ Find reflection of image.
 Developed By:jagadeeshreddy561
 Register Number:212222240059
 i)Image Translation
-```
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -56,9 +56,9 @@ M = np. float32 ([[1.5, 0 ,0],
 scaled_img=cv2.warpPerspective(input_image, M, (cols*2, rows*2))
 plt.imshow(scaled_img)
 plt.show()
-
-iii)Image shearing
 ```
+iii)Image shearing
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -75,9 +75,9 @@ M = np. float32 ([[1.5, 0 ,0],
 scaled_img=cv2.warpPerspective(input_image, M, (cols*2, rows*2))
 plt.imshow(scaled_img)
 plt.show()
-
-iv)Image Reflection
 ```
+iv)Image Reflection
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -98,9 +98,9 @@ reflected_img_yaxis=cv2.warpPerspective(input_image,M_y,(cols,rows))
 plt.imshow(reflected_img_yaxis)
 plt.show()
 
-
-v)Image Rotation
 ```
+v)Image Rotation
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -116,9 +116,9 @@ rotated_img = cv2.warpPerspective(vijay_image,M,(int(cols),int(rows)))
 plt.axis('off')
 plt.imshow(rotated_img)
 plt.show()
-
-vi)Image Cropping
 ```
+vi)Image Cropping
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
